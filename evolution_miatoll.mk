@@ -10,7 +10,6 @@ $(call inherit-product, device/xiaomi/miatoll/device.mk)
 # Inherit some common Evolution-X stuff
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
-EVO_BUILD_TYPE := OFFICIAL
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
